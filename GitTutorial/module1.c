@@ -1,6 +1,6 @@
 /*
 * This is module1.c
-* Version is: 1 
+* Version is: 1.1
 */ 
 #include <stdio.h>
 #include "module1.h"
@@ -8,7 +8,7 @@
 void aFunction(void) 
 {		
 
-	printf("This is a function V1");
+	printf("This is a function V1.1");
 	
 
 	return;
