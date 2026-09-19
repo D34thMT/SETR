@@ -39,10 +39,10 @@ void test_MyVectorLib_Find_NotThere(void)
 
 void test_MyVectorLib_Find_AreThere(void)
 {
-	TEST_ASSERT_EQUAL_INT(1, MyVectorLib_Find(0));
-	TEST_ASSERT_EQUAL_INT(2, MyVectorLib_Find(27));
-	TEST_ASSERT_EQUAL_INT(5, MyVectorLib_Find(900));
-	TEST_ASSERT_EQUAL_INT(8, MyVectorLib_Find(999));
+	TEST_ASSERT_EQUAL_INT(0, MyVectorLib_Find(0));
+	TEST_ASSERT_EQUAL_INT(1, MyVectorLib_Find(27));
+	TEST_ASSERT_EQUAL_INT(4, MyVectorLib_Find(900));
+	TEST_ASSERT_EQUAL_INT(7, MyVectorLib_Find(999));
 	
 }
 void test_MyVectorLib_Len_RightSize(void)

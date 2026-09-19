@@ -14,6 +14,7 @@ void MyVectorLib_Init(void){
 /* Adds an element to the vector */
 int MyVectorLib_Add(int number){
 	MyVectorLib_Vect[MyVectLen]=number; 	/* Missing something ? */
+	MyVectLen++;							/* Increment length of the vector to add a new element*/
 	return MYVECTLIB_OK;
 }	
 

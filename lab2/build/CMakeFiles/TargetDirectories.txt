@@ -1,0 +1,7 @@
+/home/mateus/Desktop/SETR/lab2/build/CMakeFiles/unity.dir
+/home/mateus/Desktop/SETR/lab2/build/CMakeFiles/edit_cache.dir
+/home/mateus/Desktop/SETR/lab2/build/CMakeFiles/rebuild_cache.dir
+/home/mateus/Desktop/SETR/lab2/build/CMakeFiles/list_install_components.dir
+/home/mateus/Desktop/SETR/lab2/build/CMakeFiles/install.dir
+/home/mateus/Desktop/SETR/lab2/build/CMakeFiles/install/local.dir
+/home/mateus/Desktop/SETR/lab2/build/CMakeFiles/install/strip.dir
