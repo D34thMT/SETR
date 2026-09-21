@@ -48,20 +48,20 @@ void MyVectorLib_Delete(int number)
 		if (MyVectorLib_Vect[i] == number)
 		{
 			int j = i;
-			// While loop where the number is removed and all elemets go one spot forward
+			/* While loop where the number is removed and all elements go one spot forward */ 
 			while(j<MyVectLen-1)
 			{
 				MyVectorLib_Vect[j] = MyVectorLib_Vect[j+1];
 				j++;
 			}
 			
-			// Decrease the total length because of the number removed
+			/* Decrease the total length because of the number removed */ 
 			MyVectLen--;
 		} 	
 		else
 		{
-			// Only when the number it's not removed, that we can increment the index
-			// If not we will skip the new number positon 
+			/*  Only when the number it's not removed, that we can increment the index
+				If not we will skip the new number positon */
 			i++;
 		}
 	}

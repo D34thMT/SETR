@@ -4,7 +4,7 @@
 MODULE_NAME = MyVectorLib
 
 # Paths
-UNITY_ROOT = ../Unity
+UNITY_ROOT = ../../shared_libs
 SRC_FOLDER = src
 TEST_FOLDER = test
 BUILD_FOLDER = build
