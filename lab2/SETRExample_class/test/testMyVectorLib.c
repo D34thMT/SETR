@@ -67,7 +67,7 @@ void test_MyVectorLib_Sort(void)
 	TEST_ASSERT_EQUAL_INT(5, MyVectorLib_Find(12343));
 }
 
-void test_MyVectorLib_Max(void)
+void test_MyVectorLib_FindMax(void)
 {
 	TEST_ASSERT_EQUAL_INT(12343, MyVectorLib_Max());
 	MyVectorLib_Add(500000);
@@ -78,7 +78,7 @@ void test_MyVectorLib_Max(void)
 	MyVectorLib_Delete(20);	
 }
 
-void test_MyVectorLib_Min(void)
+void test_MyVectorLib_FindMin(void)
 {
 	TEST_ASSERT_EQUAL_INT(0, MyVectorLib_Min());
 	MyVectorLib_Delete(0);
@@ -88,7 +88,7 @@ void test_MyVectorLib_Min(void)
 
 }
 
-void test_MyVectorLib_Avg(void)
+void test_MyVectorLib_ComputeAvg(void)
 {
 	TEST_ASSERT_EQUAL_INT(2927, MyVectorLib_Avg());
 }
@@ -104,9 +104,9 @@ int main(void)
 	RUN_TEST(test_MyVectorLib_Len_RightSize);
 	RUN_TEST(test_MyVectorLib_DeleteCheckSize);
 	RUN_TEST(test_MyVectorLib_Sort);
-	RUN_TEST(test_MyVectorLib_Max);
-	RUN_TEST(test_MyVectorLib_Min);
-	RUN_TEST(test_MyVectorLib_Avg);
+	RUN_TEST(test_MyVectorLib_FindMax);
+	RUN_TEST(test_MyVectorLib_FindMin);
+	RUN_TEST(test_MyVectorLib_ComputeAvg);
 
 	return UNITY_END();
 }
