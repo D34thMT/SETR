@@ -16,7 +16,7 @@ struct Node{
 struct Node* createNode(int data);                      /* Create a node and insert data        */
 void insertNode(struct Node** head, int number);        /* Insert a node                        */
 void deleteNode(struct Node** head);                    /* Delete the node                      */
-void printNodedata(struct Node* head);                   /* Print the integer value of the node  */
+void printNodedata(struct Node* head);                  /* Print the integer value of the node  */
 
 
 #endif
